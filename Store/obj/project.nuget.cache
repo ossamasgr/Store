@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r6GWxzIzs0XnAeea7BbHk2ORON5Vncx5Yh6I9kv7NJTN+wIx0+kGd3+blYriPrdum1t/Ej6F8/QDWT+CFJFgLQ==",
+  "success": true,
+  "projectFilePath": "E:\\serious projects\\Store\\Store\\Store.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ossama\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
+  ],
+  "logs": []
+}
