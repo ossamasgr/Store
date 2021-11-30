@@ -32,4 +32,6 @@
                                 
    # Architecture 
    ![arch](/architecture/store.png)
-
+   ## Techical aproach 
+- using C# (ADO.NET)  as our programming language 
+      ADO.NET is a data access technology from the Microsoft .NET Framework that provides communication between relational and non-relational systems through a common set of components.
