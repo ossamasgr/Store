@@ -22,16 +22,11 @@
   ### - if you want to add files : 
   1. add the files or update the code in your cloned repo (local machine )
   2. when you're finished push the files/code to the remote repo : 
-        
-         git add .
-         git commit -m "name of commit"
-         git push origin master
-
-  ### - updating repo after a while 
-  
-   ###### NOTE : you want to pull the repo before updating to check any updates from the other devs 
-     
-      git pull origin master 
+         
+         git pull origin master #to get updates
+         git add . # to add file 
+         git commit -m "name of commit" # commit the add 
+         git push origin master # push the changes to github
       
                                 
                                 
