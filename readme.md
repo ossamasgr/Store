@@ -32,4 +32,9 @@
    ###### NOTE : you want to pull the repo before updating to check any updates from the other devs 
      
       git pull origin master 
-     
+      
+                                
+                                
+   # Architecture 
+   ![arch](/architecture/store.png)
+
