@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Store
 {
-    public partial class Form1 : Form
+    public partial class main : Form
     {
-        public Form1()
+        public main()
         {
             InitializeComponent();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
