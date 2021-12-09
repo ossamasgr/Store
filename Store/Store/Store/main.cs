@@ -21,5 +21,80 @@ namespace Store
         {
 
         }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            statistics s = new statistics();
+            panel2.Controls.Add(s);
+            s.Dock = DockStyle.Fill;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+
+        }
+        
+
+        private void label1_MouseEnter(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.Yellow;
+
+        }
+
+        private void label1_MouseLeave(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.Black;
+        }
+       
+
+        private void label2_MouseEnter_1(object sender, EventArgs e)
+        {
+            label2.ForeColor = Color.Yellow;
+        }
+
+        private void label2_MouseLeave(object sender, EventArgs e)
+        {
+            label2.ForeColor = Color.Black;
+        }
+
+        private void label3_MouseEnter(object sender, EventArgs e)
+        {
+            label3.ForeColor = Color.Yellow;
+        }
+
+        private void label3_MouseLeave(object sender, EventArgs e)
+        {
+            label3.ForeColor = Color.Black;
+        }
+
+        private void label4_MouseEnter(object sender, EventArgs e)
+        {
+            label4.ForeColor = Color.Yellow;
+        }
+
+        private void label4_MouseLeave(object sender, EventArgs e)
+        {
+            label4.ForeColor = Color.Black;
+        }
+
+       
+
     }
 }
