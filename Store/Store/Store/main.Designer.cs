@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.bunifuTextbox1);
             this.panel1.Controls.Add(this.label4);
@@ -56,6 +58,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(762, 128);
             this.panel1.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(296, 102);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 20);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "admin area";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5.MouseEnter += new System.EventHandler(this.label5_MouseEnter);
+            this.label5.MouseLeave += new System.EventHandler(this.label5_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -90,9 +107,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(237, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 20);
+            this.label4.Size = new System.Drawing.Size(53, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "admin area";
+            this.label4.Text = "Store";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             this.label4.MouseEnter += new System.EventHandler(this.label4_MouseEnter);
             this.label4.MouseLeave += new System.EventHandler(this.label4_MouseLeave);
@@ -182,5 +199,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
+        private System.Windows.Forms.Label label5;
     }
 }

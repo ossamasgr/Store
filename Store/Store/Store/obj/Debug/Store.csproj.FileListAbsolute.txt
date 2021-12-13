@@ -10,3 +10,13 @@ E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.pdb
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.main.resources
 E:\serious projects\Store\Store\Store\Store\bin\Debug\Bunifu_UI_v1.52.dll
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.statistics.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Home.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.store1.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.add_to_store.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.edit_store.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Add_Product.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Product.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.edit_product.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.view_product.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.view_store.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.admin_area.resources
