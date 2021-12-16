@@ -82,6 +82,12 @@
     <Compile Include="edit_store.Designer.cs">
       <DependentUpon>edit_store.cs</DependentUpon>
     </Compile>
+    <Compile Include="first.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="first.Designer.cs">
+      <DependentUpon>first.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="edit_store.resx">
       <DependentUpon>edit_store.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="first.resx">
+      <DependentUpon>first.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

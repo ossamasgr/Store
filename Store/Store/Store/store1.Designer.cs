@@ -164,10 +164,11 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Location = new System.Drawing.Point(187, 0);
+            this.panel1.Location = new System.Drawing.Point(188, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(583, 490);
+            this.panel1.Size = new System.Drawing.Size(582, 490);
             this.panel1.TabIndex = 6;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // store1
             // 
@@ -178,6 +179,7 @@
             this.Controls.Add(this.panel3);
             this.Name = "store1";
             this.Size = new System.Drawing.Size(770, 490);
+            this.Load += new System.EventHandler(this.store1_Load);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -40,5 +40,18 @@ namespace Store
             panel1.Controls.Add(h);
             h.Dock = DockStyle.Fill;
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void store1_Load(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            first f = new first();
+            panel1.Controls.Add(f);
+            f.Dock = DockStyle.Fill;
+        }
     }
 }

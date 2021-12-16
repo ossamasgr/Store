@@ -20,3 +20,4 @@ E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.edit_product.resourc
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.view_product.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.view_store.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.admin_area.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.first.resources
