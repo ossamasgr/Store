@@ -70,6 +70,12 @@
       <DependentUpon>admin area.cs</DependentUpon>
     </Compile>
     <Compile Include="ADO.cs" />
+    <Compile Include="bestsales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bestsales.Designer.cs">
+      <DependentUpon>bestsales.cs</DependentUpon>
+    </Compile>
     <Compile Include="edit product.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -126,6 +132,12 @@
     <Compile Include="store1.Designer.cs">
       <DependentUpon>store1.cs</DependentUpon>
     </Compile>
+    <Compile Include="transactions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="transactions.Designer.cs">
+      <DependentUpon>transactions.cs</DependentUpon>
+    </Compile>
     <Compile Include="view product.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -146,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="admin area.resx">
       <DependentUpon>admin area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bestsales.resx">
+      <DependentUpon>bestsales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="edit product.resx">
       <DependentUpon>edit product.cs</DependentUpon>
@@ -182,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="store1.resx">
       <DependentUpon>store1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transactions.resx">
+      <DependentUpon>transactions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view product.resx">
       <DependentUpon>view product.cs</DependentUpon>

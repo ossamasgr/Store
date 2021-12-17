@@ -24,24 +24,22 @@ namespace Store
 
         private void main_Load(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            Home h = new Home();
-            panel2.Controls.Add(h);
-            h.Dock = DockStyle.Fill;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
-            Home h = new Home();
+            transactions h = new transactions();
             panel2.Controls.Add(h);
             h.Dock = DockStyle.Fill;
+            
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
             panel2.Controls.Clear();
-            statistics s = new statistics();
+            bestsales s = new bestsales();
             panel2.Controls.Add(s);
             s.Dock = DockStyle.Fill;
         }
@@ -123,6 +121,15 @@ namespace Store
         private void label5_MouseLeave(object sender, EventArgs e)
         {
             label5.ForeColor = Color.Black;
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();       
+            panel3.Visible = false;
+            transactions h = new transactions();
+            panel2.Controls.Add(h);
+            h.Dock = DockStyle.Fill;
         }
 
        
