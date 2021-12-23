@@ -37,5 +37,10 @@ namespace Store
             chart1.Titles.Add("Products Chart");
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

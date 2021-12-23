@@ -23,3 +23,5 @@ E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.admin_area.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.first.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.transactions.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.bestsales.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Dashb.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Dashboard.resources

@@ -76,6 +76,18 @@
     <Compile Include="bestsales.Designer.cs">
       <DependentUpon>bestsales.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dashb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashb.Designer.cs">
+      <DependentUpon>Dashb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="edit product.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -161,6 +173,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="bestsales.resx">
       <DependentUpon>bestsales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashb.resx">
+      <DependentUpon>Dashb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="edit product.resx">
       <DependentUpon>edit product.cs</DependentUpon>
