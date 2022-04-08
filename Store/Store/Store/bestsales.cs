@@ -24,18 +24,10 @@ namespace Store
 
         private void bestsales_Load(object sender, EventArgs e)
         {
-            bunifuCircleProgressbar1.Value = 50;
-            bunifuCircleProgressbar2.Value = 70;
-            bunifuCircleProgressbar3.Value = 30;
-            //AddXY value in chart1 in series named as Salary  
-            chart1.Series["products"].Points.AddXY("tide", "10000");
-            chart1.Series["products"].Points.AddXY("taous", "8000");
-            chart1.Series["products"].Points.AddXY("eyoo", "7000");
-            chart1.Series["products"].Points.AddXY("pepsi", "10000");
-            chart1.Series["products"].Points.AddXY("colimo", "8500");
-            //chart title  
-            chart1.Titles.Add("Products Chart");
-
+            panel6.Controls.Clear();
+            Dashboard d = new Dashboard();
+            panel6.Controls.Add(d);
+            d.Dock = DockStyle.Fill;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

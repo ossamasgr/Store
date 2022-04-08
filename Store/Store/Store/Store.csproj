@@ -63,6 +63,12 @@
     <Compile Include="add to store.Designer.cs">
       <DependentUpon>add to store.cs</DependentUpon>
     </Compile>
+    <Compile Include="add_user.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="add_user.Designer.cs">
+      <DependentUpon>add_user.cs</DependentUpon>
+    </Compile>
     <Compile Include="admin area.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -70,6 +76,12 @@
       <DependentUpon>admin area.cs</DependentUpon>
     </Compile>
     <Compile Include="ADO.cs" />
+    <Compile Include="backup database.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="backup database.Designer.cs">
+      <DependentUpon>backup database.cs</DependentUpon>
+    </Compile>
     <Compile Include="bestsales.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,6 +100,18 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="dbshema.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dbshema.Designer.cs">
+      <DependentUpon>dbshema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_user.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="delete_user.Designer.cs">
+      <DependentUpon>delete_user.cs</DependentUpon>
+    </Compile>
     <Compile Include="edit product.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +123,12 @@
     </Compile>
     <Compile Include="edit_store.Designer.cs">
       <DependentUpon>edit_store.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit_user_permession.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="edit_user_permession.Designer.cs">
+      <DependentUpon>edit_user_permession.cs</DependentUpon>
     </Compile>
     <Compile Include="first.cs">
       <SubType>UserControl</SubType>
@@ -124,6 +154,24 @@
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
+    <Compile Include="orderbyday.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="orderbyday.Designer.cs">
+      <DependentUpon>orderbyday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderbyemployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="orderbyemployee.Designer.cs">
+      <DependentUpon>orderbyemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oreders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="oreders.Designer.cs">
+      <DependentUpon>oreders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -132,6 +180,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="restoredb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="restoredb.Designer.cs">
+      <DependentUpon>restoredb.cs</DependentUpon>
+    </Compile>
     <Compile Include="statistics.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -143,6 +197,12 @@
     </Compile>
     <Compile Include="store1.Designer.cs">
       <DependentUpon>store1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="support.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="support.Designer.cs">
+      <DependentUpon>support.cs</DependentUpon>
     </Compile>
     <Compile Include="transactions.cs">
       <SubType>UserControl</SubType>
@@ -168,8 +228,14 @@
     <EmbeddedResource Include="add to store.resx">
       <DependentUpon>add to store.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="add_user.resx">
+      <DependentUpon>add_user.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin area.resx">
       <DependentUpon>admin area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backup database.resx">
+      <DependentUpon>backup database.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bestsales.resx">
       <DependentUpon>bestsales.cs</DependentUpon>
@@ -180,11 +246,20 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dbshema.resx">
+      <DependentUpon>dbshema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_user.resx">
+      <DependentUpon>delete_user.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="edit product.resx">
       <DependentUpon>edit product.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="edit_store.resx">
       <DependentUpon>edit_store.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_user_permession.resx">
+      <DependentUpon>edit_user_permession.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="first.resx">
       <DependentUpon>first.cs</DependentUpon>
@@ -198,6 +273,15 @@
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="orderbyday.resx">
+      <DependentUpon>orderbyday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderbyemployee.resx">
+      <DependentUpon>orderbyemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oreders.resx">
+      <DependentUpon>oreders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,11 +294,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="restoredb.resx">
+      <DependentUpon>restoredb.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="statistics.resx">
       <DependentUpon>statistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="store1.resx">
       <DependentUpon>store1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="support.resx">
+      <DependentUpon>support.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="transactions.resx">
       <DependentUpon>transactions.cs</DependentUpon>

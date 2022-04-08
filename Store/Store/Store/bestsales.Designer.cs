@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bestsales));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -53,18 +49,12 @@
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar2 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar3 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -469,114 +459,20 @@
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // chart1
+            // panel6
             // 
-            this.chart1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.chart1.BackColor = System.Drawing.Color.Gray;
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(206, 78);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "products";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(500, 229);
-            this.chart1.TabIndex = 4;
-            this.chart1.Text = "chart1";
-            // 
-            // bunifuCircleProgressbar1
-            // 
-            this.bunifuCircleProgressbar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCircleProgressbar1.animated = false;
-            this.bunifuCircleProgressbar1.animationIterval = 5;
-            this.bunifuCircleProgressbar1.animationSpeed = 300;
-            this.bunifuCircleProgressbar1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCircleProgressbar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar1.BackgroundImage")));
-            this.bunifuCircleProgressbar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCircleProgressbar1.LabelVisible = true;
-            this.bunifuCircleProgressbar1.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar1.LineThickness = 5;
-            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(19, 5);
-            this.bunifuCircleProgressbar1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar1.MaxValue = 100;
-            this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
-            this.bunifuCircleProgressbar1.ProgressBackColor = System.Drawing.Color.Gray;
-            this.bunifuCircleProgressbar1.ProgressColor = System.Drawing.Color.Red;
-            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(153, 153);
-            this.bunifuCircleProgressbar1.TabIndex = 5;
-            this.bunifuCircleProgressbar1.Value = 0;
-            // 
-            // bunifuCircleProgressbar2
-            // 
-            this.bunifuCircleProgressbar2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.bunifuCircleProgressbar2.animated = false;
-            this.bunifuCircleProgressbar2.animationIterval = 5;
-            this.bunifuCircleProgressbar2.animationSpeed = 300;
-            this.bunifuCircleProgressbar2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCircleProgressbar2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar2.BackgroundImage")));
-            this.bunifuCircleProgressbar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCircleProgressbar2.LabelVisible = true;
-            this.bunifuCircleProgressbar2.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar2.LineThickness = 5;
-            this.bunifuCircleProgressbar2.Location = new System.Drawing.Point(192, 5);
-            this.bunifuCircleProgressbar2.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar2.MaxValue = 100;
-            this.bunifuCircleProgressbar2.Name = "bunifuCircleProgressbar2";
-            this.bunifuCircleProgressbar2.ProgressBackColor = System.Drawing.Color.Gray;
-            this.bunifuCircleProgressbar2.ProgressColor = System.Drawing.Color.Aqua;
-            this.bunifuCircleProgressbar2.Size = new System.Drawing.Size(153, 153);
-            this.bunifuCircleProgressbar2.TabIndex = 6;
-            this.bunifuCircleProgressbar2.Value = 0;
-            // 
-            // bunifuCircleProgressbar3
-            // 
-            this.bunifuCircleProgressbar3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCircleProgressbar3.animated = false;
-            this.bunifuCircleProgressbar3.animationIterval = 5;
-            this.bunifuCircleProgressbar3.animationSpeed = 300;
-            this.bunifuCircleProgressbar3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCircleProgressbar3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar3.BackgroundImage")));
-            this.bunifuCircleProgressbar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar3.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCircleProgressbar3.LabelVisible = true;
-            this.bunifuCircleProgressbar3.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar3.LineThickness = 5;
-            this.bunifuCircleProgressbar3.Location = new System.Drawing.Point(358, 5);
-            this.bunifuCircleProgressbar3.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar3.MaxValue = 100;
-            this.bunifuCircleProgressbar3.Name = "bunifuCircleProgressbar3";
-            this.bunifuCircleProgressbar3.ProgressBackColor = System.Drawing.Color.Gray;
-            this.bunifuCircleProgressbar3.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.bunifuCircleProgressbar3.Size = new System.Drawing.Size(153, 153);
-            this.bunifuCircleProgressbar3.TabIndex = 7;
-            this.bunifuCircleProgressbar3.Value = 0;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.bunifuCircleProgressbar3);
-            this.panel4.Controls.Add(this.bunifuCircleProgressbar2);
-            this.panel4.Controls.Add(this.bunifuCircleProgressbar1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(200, 316);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(535, 175);
-            this.panel4.TabIndex = 8;
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel6.Location = new System.Drawing.Point(200, 56);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(535, 435);
+            this.panel6.TabIndex = 9;
             // 
             // bestsales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "bestsales";
@@ -590,8 +486,6 @@
             this.panel5.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -618,12 +512,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar1;
-        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar2;
-        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar3;
-        private System.Windows.Forms.Panel panel4;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton7;
+        private System.Windows.Forms.Panel panel6;
 
     }
 }

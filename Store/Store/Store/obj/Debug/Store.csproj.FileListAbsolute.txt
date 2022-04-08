@@ -25,3 +25,13 @@ E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.transactions.resourc
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.bestsales.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Dashb.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.Dashboard.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.support.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.add_user.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.edit_user_permession.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.delete_user.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.backup_database.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.restoredb.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.dbshema.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.orderbyday.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.orderbyemployee.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.oreders.resources
