@@ -35,18 +35,15 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.subdatabase = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.subordorder = new System.Windows.Forms.FlowLayoutPanel();
             this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.button14 = new System.Windows.Forms.Button();
             this.subuser.SuspendLayout();
             this.subdatabase.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -155,28 +152,14 @@
             // 
             // subdatabase
             // 
-            this.subdatabase.Controls.Add(this.button9);
             this.subdatabase.Controls.Add(this.button8);
             this.subdatabase.Controls.Add(this.button7);
             this.subdatabase.Dock = System.Windows.Forms.DockStyle.Top;
             this.subdatabase.Location = new System.Drawing.Point(0, 236);
             this.subdatabase.Name = "subdatabase";
-            this.subdatabase.Size = new System.Drawing.Size(188, 124);
+            this.subdatabase.Size = new System.Drawing.Size(188, 85);
             this.subdatabase.TabIndex = 12;
             this.subdatabase.Paint += new System.Windows.Forms.PaintEventHandler(this.subdatabase_Paint);
-            // 
-            // button9
-            // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.Location = new System.Drawing.Point(0, 86);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(188, 38);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "View Schema";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -244,7 +227,7 @@
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 538);
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 457);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.Tomato;
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.OrangeRed;
@@ -262,12 +245,10 @@
             // 
             this.subordorder.Controls.Add(this.button13);
             this.subordorder.Controls.Add(this.button14);
-            this.subordorder.Controls.Add(this.button15);
-            this.subordorder.Controls.Add(this.button10);
             this.subordorder.Dock = System.Windows.Forms.DockStyle.Top;
-            this.subordorder.Location = new System.Drawing.Point(0, 408);
+            this.subordorder.Location = new System.Drawing.Point(0, 369);
             this.subordorder.Name = "subordorder";
-            this.subordorder.Size = new System.Drawing.Size(188, 130);
+            this.subordorder.Size = new System.Drawing.Size(188, 88);
             this.subordorder.TabIndex = 12;
             this.subordorder.Paint += new System.Windows.Forms.PaintEventHandler(this.subordorder_Paint);
             // 
@@ -284,44 +265,6 @@
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button14
-            // 
-            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button14.Location = new System.Drawing.Point(0, 44);
-            this.button14.Margin = new System.Windows.Forms.Padding(0);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(202, 44);
-            this.button14.TabIndex = 1;
-            this.button14.Text = "By Date";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button15
-            // 
-            this.button15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button15.Location = new System.Drawing.Point(0, 88);
-            this.button15.Margin = new System.Windows.Forms.Padding(0);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(202, 42);
-            this.button15.TabIndex = 2;
-            this.button15.Text = "By Employee";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(3, 133);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 3;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click_1);
             // 
             // bunifuFlatButton6
             // 
@@ -345,7 +288,7 @@
             this.bunifuFlatButton6.IconVisible = true;
             this.bunifuFlatButton6.IconZoom = 90D;
             this.bunifuFlatButton6.IsTab = false;
-            this.bunifuFlatButton6.Location = new System.Drawing.Point(0, 360);
+            this.bunifuFlatButton6.Location = new System.Drawing.Point(0, 321);
             this.bunifuFlatButton6.Name = "bunifuFlatButton6";
             this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.Tomato;
             this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.OrangeRed;
@@ -395,6 +338,20 @@
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
+            // button14
+            // 
+            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button14.Location = new System.Drawing.Point(0, 44);
+            this.button14.Margin = new System.Windows.Forms.Padding(0);
+            this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(202, 44);
+            this.button14.TabIndex = 1;
+            this.button14.Text = "Export";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
             // admin_area
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -422,18 +379,15 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel subdatabase;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private System.Windows.Forms.FlowLayoutPanel subordorder;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button10;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton6;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
+        private System.Windows.Forms.Button button14;
 
 
 

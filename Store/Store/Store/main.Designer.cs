@@ -78,9 +78,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(296, 76);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 20);
+            this.label5.Size = new System.Drawing.Size(102, 20);
             this.label5.TabIndex = 5;
-            this.label5.Text = "admin area";
+            this.label5.Text = "Admin Area";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             this.label5.MouseEnter += new System.EventHandler(this.label5_MouseEnter);
             this.label5.MouseLeave += new System.EventHandler(this.label5_MouseLeave);
@@ -102,7 +102,7 @@
             this.label4.AutoSize = true;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(237, 76);
+            this.label4.Location = new System.Drawing.Point(150, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 20);
             this.label4.TabIndex = 3;
@@ -117,11 +117,11 @@
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(150, 76);
+            this.label3.Location = new System.Drawing.Point(209, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 20);
+            this.label3.Size = new System.Drawing.Size(84, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "statistics";
+            this.label3.Text = "Statistics";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             this.label3.MouseEnter += new System.EventHandler(this.label3_MouseEnter);
             this.label3.MouseLeave += new System.EventHandler(this.label3_MouseLeave);
@@ -134,9 +134,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(65, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 20);
+            this.label2.Size = new System.Drawing.Size(80, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "products";
+            this.label2.Text = "Products";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             this.label2.MouseEnter += new System.EventHandler(this.label2_MouseEnter_1);
             this.label2.MouseLeave += new System.EventHandler(this.label2_MouseLeave);

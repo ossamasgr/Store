@@ -19,26 +19,17 @@ namespace Store
 
         private void bunifuThinButton29_Click(object sender, EventArgs e)
         {
-            panel1.Controls.Clear();
-            add_to_store h = new add_to_store();
-            panel1.Controls.Add(h);
-            h.Dock = DockStyle.Fill;
+           
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            panel1.Controls.Clear();
-            edit_store h = new edit_store();
-            panel1.Controls.Add(h);
-            h.Dock = DockStyle.Fill;
+           
         }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
-            panel1.Controls.Clear();
-            view_store h = new view_store();
-            panel1.Controls.Add(h);
-            h.Dock = DockStyle.Fill;
+       
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -48,10 +39,12 @@ namespace Store
 
         private void store1_Load(object sender, EventArgs e)
         {
-            panel1.Controls.Clear();
-            first f = new first();
-            panel1.Controls.Add(f);
-            f.Dock = DockStyle.Fill;
+           
+        }
+
+        private void bunifuCustomDataGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

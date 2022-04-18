@@ -28,7 +28,7 @@ namespace Store
             subuser.Visible = false;
             subdatabase.Visible = false;
             subordorder.Visible = false;
-            substat.Visible = false;
+            
         }
         private void hidesubmenu()
         {
@@ -40,8 +40,7 @@ namespace Store
                 subordorder.Visible = false;
             if (subdatabase.Visible == true)
                 subdatabase.Visible = false;
-            if (substat.Visible == true)
-                substat.Visible = false;
+         
            
         }
         private void showsubmenu(Panel sub)
@@ -79,7 +78,7 @@ namespace Store
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            showsubmenu(substat);
+           
         }
 
         private void button16_Click(object sender, EventArgs e)
