@@ -66,12 +66,12 @@
             this.bunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.Gray;
             this.bunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
             this.bunifuMaterialTextbox4.LineThickness = 3;
-            this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(27, 61);
+            this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(27, 227);
             this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox4.Name = "bunifuMaterialTextbox4";
             this.bunifuMaterialTextbox4.Size = new System.Drawing.Size(219, 44);
             this.bunifuMaterialTextbox4.TabIndex = 10;
-            this.bunifuMaterialTextbox4.Text = "Barr Code";
+            this.bunifuMaterialTextbox4.Text = "Qte in stock";
             this.bunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuMaterialTextbox3
@@ -87,7 +87,7 @@
             this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.Gray;
             this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
             this.bunifuMaterialTextbox3.LineThickness = 3;
-            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(27, 240);
+            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(27, 175);
             this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
             this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(219, 44);
@@ -108,12 +108,12 @@
             this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
             this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
             this.bunifuMaterialTextbox2.LineThickness = 3;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(27, 188);
+            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(27, 123);
             this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
             this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(219, 44);
             this.bunifuMaterialTextbox2.TabIndex = 8;
-            this.bunifuMaterialTextbox2.Text = "Qte";
+            this.bunifuMaterialTextbox2.Text = "Name";
             this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuMaterialTextbox1
@@ -129,12 +129,12 @@
             this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
             this.bunifuMaterialTextbox1.LineThickness = 3;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(27, 113);
+            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(27, 71);
             this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
             this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(219, 44);
             this.bunifuMaterialTextbox1.TabIndex = 7;
-            this.bunifuMaterialTextbox1.Text = "Name";
+            this.bunifuMaterialTextbox1.Text = "Bare Code";
             this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label1
