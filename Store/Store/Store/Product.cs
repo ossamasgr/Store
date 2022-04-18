@@ -36,7 +36,7 @@ namespace Store
         {
             //filling datagrid
             bunifuCustomDataGrid1.Rows.Clear();
-            d.cmd = new SqlCommand("select * from products where id = '" + user + "'", d.cnx);
+            d.cmd = new SqlCommand("select * from products where id like '%" + user + "%'", d.cnx);
             d.CONNECTER();
             d.dr = d.cmd.ExecuteReader();
             while (d.dr.Read())

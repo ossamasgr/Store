@@ -39,7 +39,7 @@ namespace Store
 
         private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
         {
-
+            //if product doesn't exist suggest to add it (make it easy)
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
