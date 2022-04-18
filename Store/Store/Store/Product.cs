@@ -78,6 +78,8 @@ namespace Store
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             //add
+            add_product_popup a = new add_product_popup();
+            a.Show();
            
         }
 
@@ -156,13 +158,7 @@ namespace Store
         {
             //apply
             bunifuCustomDataGrid1.EndEdit();
-            foreach (DataGridViewRow row in bunifuCustomDataGrid1.Rows)
-            {
-                if (Convert.ToBoolean(row.Cells[0].Value))
-                {
-                    MessageBox.Show(row.Cells[2].Value.ToString());
-                }
-            }
+            filldatagrid();
         }
     }
 }

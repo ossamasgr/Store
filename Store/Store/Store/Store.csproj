@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add product popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add product popup.Designer.cs">
+      <DependentUpon>add product popup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add Product.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -222,6 +228,9 @@
     <Compile Include="view store.Designer.cs">
       <DependentUpon>view store.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="add product popup.resx">
+      <DependentUpon>add product popup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add Product.resx">
       <DependentUpon>Add Product.cs</DependentUpon>
     </EmbeddedResource>
