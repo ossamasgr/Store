@@ -63,11 +63,11 @@
     <Compile Include="Add Product.Designer.cs">
       <DependentUpon>Add Product.cs</DependentUpon>
     </Compile>
-    <Compile Include="add to store.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="add to storage.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="add to store.Designer.cs">
-      <DependentUpon>add to store.cs</DependentUpon>
+    <Compile Include="add to storage.Designer.cs">
+      <DependentUpon>add to storage.cs</DependentUpon>
     </Compile>
     <Compile Include="add_user.cs">
       <SubType>UserControl</SubType>
@@ -234,8 +234,8 @@
     <EmbeddedResource Include="Add Product.resx">
       <DependentUpon>Add Product.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="add to store.resx">
-      <DependentUpon>add to store.cs</DependentUpon>
+    <EmbeddedResource Include="add to storage.resx">
+      <DependentUpon>add to storage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="add_user.resx">
       <DependentUpon>add_user.cs</DependentUpon>

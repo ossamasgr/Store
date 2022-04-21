@@ -100,5 +100,39 @@ namespace Store
                 filldatagrid_search(bunifuTextbox1.text);
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            //Delete 
+            bunifuCustomDataGrid1.EndEdit();
+            
+            foreach (DataGridViewRow row in bunifuCustomDataGrid1.Rows)
+            {
+                if (Convert.ToBoolean(row.Cells[0].Value))
+                {
+                    //[delete from storage first then delete]
+                    d.cmd = new SqlCommand("delete from storage where id  in (select id from storage where product_id = '" + row.Cells[1].Value.ToString() + "') ", d.cnx);
+                    d.CONNECTER();
+                    d.cmd.ExecuteNonQuery();
+                    MessageBox.Show("Deleted '" + row.Cells[2].Value.ToString() + "'");
+                    d.DECONNECTER();
+
+                }
+            }
+            filldatagrid();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //add
+            add_to_storage a = new add_to_storage();
+            a.Show();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            filldatagrid();
+        }
     }
 }

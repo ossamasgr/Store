@@ -105,17 +105,14 @@ namespace Store
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            //delete
-            string ids = "";
-            
- 
-            
+            //delete            
             bunifuCustomDataGrid1.EndEdit();
 
             foreach(DataGridViewRow row in bunifuCustomDataGrid1.Rows)
             {
                 if (Convert.ToBoolean(row.Cells[0].Value))
                 {
+                    //[delete from storage first then delete]
                     d.cmd = new SqlCommand("delete from products where id  = '" + row.Cells[1].Value.ToString()+ "'", d.cnx);
                     d.CONNECTER();
                     d.cmd.ExecuteNonQuery();
