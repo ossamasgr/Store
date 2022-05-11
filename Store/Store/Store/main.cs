@@ -24,11 +24,13 @@ namespace Store
 
         private void main_Load(object sender, EventArgs e)
         {
-            
+            //employee
+            label6.Text = ADO.GlobalVar;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+            //Home
             panel2.Controls.Clear();
             transactions h = new transactions();
             panel2.Controls.Add(h);
@@ -38,6 +40,7 @@ namespace Store
 
         private void label3_Click(object sender, EventArgs e)
         {
+            //statistics
             panel2.Controls.Clear();
             bestsales s = new bestsales();
             panel2.Controls.Add(s);
@@ -46,6 +49,7 @@ namespace Store
 
         private void label2_Click(object sender, EventArgs e)
         {
+            //products
             panel2.Controls.Clear();
             Product s = new Product();
             panel2.Controls.Add(s);
@@ -55,6 +59,7 @@ namespace Store
 
         private void label4_Click(object sender, EventArgs e)
         {
+            //store
             panel2.Controls.Clear();
             store1 s = new store1();
             panel2.Controls.Add(s);
@@ -107,6 +112,7 @@ namespace Store
 
         private void label5_Click(object sender, EventArgs e)
         {
+            //admin area
             panel2.Controls.Clear();
             admin_area s = new admin_area();
             panel2.Controls.Add(s);
@@ -125,6 +131,7 @@ namespace Store
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
+            //get startes --> to home 
             panel2.Controls.Clear();       
             panel3.Visible = false;
             transactions h = new transactions();
@@ -135,6 +142,23 @@ namespace Store
         private void pictureBox6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            command c = new command();
+            panel2.Controls.Add(c);
+            c.Dock = DockStyle.Fill;
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            //orders
+            panel2.Controls.Clear();
+            orders o = new orders();
+            panel2.Controls.Add(o);
+            o.Dock = DockStyle.Fill;
         }
 
        

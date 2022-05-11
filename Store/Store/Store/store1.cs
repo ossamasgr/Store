@@ -21,7 +21,7 @@ namespace Store
         {
             //filling datagrid
             bunifuCustomDataGrid1.Rows.Clear();
-            d.cmd = new SqlCommand("select product_id,name,qte_in_stock,last_updated from storage s,products p where s.product_id = p.id; ", d.cnx);
+            d.cmd = new SqlCommand("select product_id,name,qte_in_stock,last_updated from storage s,products p where s.product_id = p.id ", d.cnx);
             d.CONNECTER();
             d.dr = d.cmd.ExecuteReader();
             while (d.dr.Read())
@@ -35,12 +35,12 @@ namespace Store
         {
             //filling datagrid
             bunifuCustomDataGrid1.Rows.Clear();
-            d.cmd = new SqlCommand("select * from storage where product_id like '%" + user + "%'", d.cnx);
+            d.cmd = new SqlCommand("select product_id,name,qte_in_stock,last_updated from storage s,products p where s.product_id = p.id and s.product_id like '%" + user + "%'", d.cnx);
             d.CONNECTER();
             d.dr = d.cmd.ExecuteReader();
             while (d.dr.Read())
             {
-                bunifuCustomDataGrid1.Rows.Add(false, d.dr[3], d.dr[1], d.dr[2]);
+                bunifuCustomDataGrid1.Rows.Add(false, d.dr[0], d.dr[1], d.dr[2], d.dr[3]);
             }
             d.dr.Close();
             d.DECONNECTER();
@@ -127,7 +127,6 @@ namespace Store
             //add
             add_to_storage a = new add_to_storage();
             a.Show();
-
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

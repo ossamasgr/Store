@@ -15,7 +15,15 @@ namespace Store
         public SqlCommand cmd = new SqlCommand();
         public SqlDataReader dr;
         public DataTable dt = new DataTable();
-       
+
+        private static string employee = "dd";
+
+        public static string GlobalVar
+        {
+            
+            get { return employee; }
+            set { employee = value; }
+        }
         // declaration de la methode connecter
         public void CONNECTER()
         {

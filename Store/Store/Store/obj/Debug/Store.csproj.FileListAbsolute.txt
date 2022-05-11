@@ -36,3 +36,6 @@ E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.orderbyemployee.reso
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.oreders.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.add_product_popup.resources
 E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.add_to_storage.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.auth.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.orders.resources
+E:\serious projects\Store\Store\Store\Store\obj\Debug\Store.command.resources

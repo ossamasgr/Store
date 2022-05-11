@@ -82,6 +82,12 @@
       <DependentUpon>admin area.cs</DependentUpon>
     </Compile>
     <Compile Include="ADO.cs" />
+    <Compile Include="auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="auth.Designer.cs">
+      <DependentUpon>auth.cs</DependentUpon>
+    </Compile>
     <Compile Include="backup database.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -93,6 +99,12 @@
     </Compile>
     <Compile Include="bestsales.Designer.cs">
       <DependentUpon>bestsales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="command.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="command.Designer.cs">
+      <DependentUpon>command.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashb.cs">
       <SubType>Form</SubType>
@@ -148,11 +160,11 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="log in.cs">
+    <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="log in.Designer.cs">
-      <DependentUpon>log in.cs</DependentUpon>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="main.cs">
       <SubType>Form</SubType>
@@ -171,6 +183,12 @@
     </Compile>
     <Compile Include="orderbyemployee.Designer.cs">
       <DependentUpon>orderbyemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="orders.Designer.cs">
+      <DependentUpon>orders.cs</DependentUpon>
     </Compile>
     <Compile Include="oreders.cs">
       <SubType>UserControl</SubType>
@@ -243,11 +261,17 @@
     <EmbeddedResource Include="admin area.resx">
       <DependentUpon>admin area.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="auth.resx">
+      <DependentUpon>auth.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="backup database.resx">
       <DependentUpon>backup database.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bestsales.resx">
       <DependentUpon>bestsales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="command.resx">
+      <DependentUpon>command.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashb.resx">
       <DependentUpon>Dashb.cs</DependentUpon>
@@ -276,8 +300,8 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="log in.resx">
-      <DependentUpon>log in.cs</DependentUpon>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
@@ -287,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="orderbyemployee.resx">
       <DependentUpon>orderbyemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orders.resx">
+      <DependentUpon>orders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="oreders.resx">
       <DependentUpon>oreders.cs</DependentUpon>
