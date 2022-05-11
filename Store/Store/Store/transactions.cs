@@ -16,14 +16,15 @@ namespace Store
         DataSet ds = new DataSet();
         DataRow order_dr;
         SqlDataAdapter order_da;
-        DateTime today = DateTime.Today;
+        DateTime today = DateTime.Now;
         SqlDataAdapter minus_store_da;
         string product_quantity;
         string name = "product's name";
         float price = 00;
         float TotalPrice = 00;
         string user_id = ADO.GlobalVar;
-        int id_t_use = 0; 
+        int id_t_use = 0;
+        
         public transactions()
         {
             InitializeComponent();
