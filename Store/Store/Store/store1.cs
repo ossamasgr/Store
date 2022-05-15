@@ -69,6 +69,9 @@ namespace Store
         {
             //Load
             filldatagrid();
+            // focus on search textbox
+            bunifuTextbox1.text = "";
+            bunifuTextbox1.Focus();
         }
 
         private void bunifuCustomDataGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -14,6 +14,7 @@ namespace Store
     {
         ADO d = new ADO();
         DataSet ds = new DataSet();
+        DataSet ds_storage = new DataSet();
         DataRow order_dr;
         SqlDataAdapter order_da;
         DateTime today = DateTime.Now;
@@ -167,26 +168,32 @@ namespace Store
                     TotalPrice = TotalPrice + price;
                     bunifuMaterialTextbox2.Text = TotalPrice.ToString();
 
+                    // minus store
+
+                    //get product's quantity in stock 
+                    qte_in_stock(bunifuMaterialTextbox1.Text.ToString());
+
+                    minus_store_da = new SqlDataAdapter("select * from storage where product_id = '" + bunifuMaterialTextbox1.Text + "' ", d.cnx);
+                    minus_store_da.Fill(ds_storage, "storage");
+
+                    for (int a = 0; a < ds_storage.Tables["storage"].Rows.Count; a++)
+                    {
+
+                        if (bunifuMaterialTextbox1.Text == ds_storage.Tables["storage"].Rows[a][0].ToString())
+                        {
+                            int q_s = int.Parse(product_quantity);
+                            q_s = q_s - 1;
+
+                            ds_storage.Tables["storage"].Rows[a][1] = q_s.ToString();
+                            
+                        }
+                    }
 
                     //focus on textbox 
                     bunifuMaterialTextbox1.Text = "";
                     bunifuMaterialTextbox1.Focus();
 
-                    // minus store
                     
-                    /*qte_in_stock(bunifuMaterialTextbox1.Text.ToString());
-                    minus_store_da = new SqlDataAdapter("select * from storage where product_id = '"+bunifuMaterialTextbox1.Text+"' ",d.cnx);
-                    minus_store_da.Fill(ds, "storage");
-
-                    for (int a = 0; a < ds.Tables["storage"].Rows.Count; a++)
-                    {
-                        if(bunifuMaterialTextbox1.Text == ds.Tables["product_id"].Rows[a][3].ToString())
-                        {
-                            int q_s = int.Parse(product_quantity);
-                            
-                            ds.Tables["storage"].Rows[a][1] = q_s - 1 ;  
-                        }
-                    }*/
                     
                 }
             }
@@ -228,11 +235,11 @@ namespace Store
             order_da.Update(ds, "orders");
             
             //save minus storage
-            /*SqlCommandBuilder cb_minus_store = new SqlCommandBuilder(minus_store_da);
-            minus_store_da.Update(ds, "storage");*/
+            SqlCommandBuilder cb_minus_store = new SqlCommandBuilder(minus_store_da);
+            minus_store_da.Update(ds_storage, "storage");
 
-            // add 1 to order_id
-            d.cmd = new SqlCommand("update order_id set id = id+1",d.cnx);
+            // add 1 to order_id table 
+            d.cmd = new SqlCommand("update order_id set id = id + 1",d.cnx);
             d.CONNECTER();
             d.cmd.ExecuteNonQuery();
             d.DECONNECTER();

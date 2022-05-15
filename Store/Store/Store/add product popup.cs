@@ -28,10 +28,12 @@ namespace Store
             
             //add To Storage 
             DateTime today = DateTime.Today;
-            d.cmd = new SqlCommand("insert into storage(qte_in_stock,product_id,last_updated) values('" + bunifuMaterialTextbox4.Text + "','" + bunifuMaterialTextbox1.Text + "','" + today + "')", d.cnx);
+            d.cmd = new SqlCommand("insert into storage(id,qte_in_stock,product_id,last_updated) values('" + bunifuMaterialTextbox1.Text + "','" + bunifuMaterialTextbox4.Text + "','" + bunifuMaterialTextbox1.Text + "','" + today + "')", d.cnx);
             d.CONNECTER();
             d.cmd.ExecuteNonQuery();
             d.DECONNECTER();
+
+
             MessageBox.Show("Product '" + bunifuMaterialTextbox2.Text + "' with '" + bunifuMaterialTextbox4.Text + "' items added to the Store");
             //back to products
             this.Hide();

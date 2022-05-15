@@ -75,7 +75,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(226, 18);
+            this.label2.Location = new System.Drawing.Point(226, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 24);
             this.label2.TabIndex = 5;
@@ -94,7 +94,7 @@
             this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
             this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.OrangeRed;
             this.bunifuMaterialTextbox2.LineThickness = 3;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(78, 7);
+            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(78, 24);
             this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
             this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(131, 35);
@@ -108,7 +108,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 18);
+            this.label1.Location = new System.Drawing.Point(3, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 24);
             this.label1.TabIndex = 3;

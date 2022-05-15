@@ -177,26 +177,16 @@ namespace Store
 
         private void button13_Click(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            oreders o = new oreders();
-            panel2.Controls.Add(o);
-            o.Dock = DockStyle.Fill;
+           
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            orderbyday o = new orderbyday();
-            panel2.Controls.Add(o);
-            o.Dock = DockStyle.Fill;
+          
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            panel2.Controls.Clear();
-            orderbyemployee o = new orderbyemployee();
-            panel2.Controls.Add(o);
-            o.Dock = DockStyle.Fill;
         }
 
         private void button10_Click_1(object sender, EventArgs e)

@@ -172,29 +172,11 @@
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
-    <Compile Include="orderbyday.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="orderbyday.Designer.cs">
-      <DependentUpon>orderbyday.cs</DependentUpon>
-    </Compile>
-    <Compile Include="orderbyemployee.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="orderbyemployee.Designer.cs">
-      <DependentUpon>orderbyemployee.cs</DependentUpon>
-    </Compile>
     <Compile Include="orders.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="orders.Designer.cs">
       <DependentUpon>orders.cs</DependentUpon>
-    </Compile>
-    <Compile Include="oreders.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="oreders.Designer.cs">
-      <DependentUpon>oreders.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs">
       <SubType>UserControl</SubType>
@@ -306,17 +288,8 @@
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="orderbyday.resx">
-      <DependentUpon>orderbyday.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="orderbyemployee.resx">
-      <DependentUpon>orderbyemployee.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="orders.resx">
       <DependentUpon>orders.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="oreders.resx">
-      <DependentUpon>oreders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.cs</DependentUpon>

@@ -72,6 +72,9 @@ namespace Store
         {
             //filling datagrid
             filldatagrid();
+            // focus on search textbox
+            bunifuTextbox1.text = "";
+            bunifuTextbox1.Focus();
 
         }
 
