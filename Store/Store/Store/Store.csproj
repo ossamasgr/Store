@@ -192,12 +192,6 @@
     <Compile Include="restoredb.Designer.cs">
       <DependentUpon>restoredb.cs</DependentUpon>
     </Compile>
-    <Compile Include="statistics.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="statistics.Designer.cs">
-      <DependentUpon>statistics.cs</DependentUpon>
-    </Compile>
     <Compile Include="store1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -305,9 +299,6 @@
     </Compile>
     <EmbeddedResource Include="restoredb.resx">
       <DependentUpon>restoredb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="statistics.resx">
-      <DependentUpon>statistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="store1.resx">
       <DependentUpon>store1.cs</DependentUpon>

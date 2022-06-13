@@ -7,15 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace Store
 {
     public partial class Dashboard : UserControl
     {
+        ADO d = new ADO();
+        
         public Dashboard()
         {
             InitializeComponent();
         }
+
+
+
+        void user_infos(int id)
+        {
+            
+        }
+
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
@@ -45,7 +55,7 @@ namespace Store
 
         private void bunifuSeparator1_Load(object sender, EventArgs e)
         {
-
+            // get the data
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
